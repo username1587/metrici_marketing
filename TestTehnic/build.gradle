@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/com.mihailproductions/cnp-validator
+//    implementation group: 'com.mihailproductions', name: 'cnp-validator', version: '0.1.2'
+//    implementation 'com.mihailproductions:cnp-validator:0.1.2'
+}
